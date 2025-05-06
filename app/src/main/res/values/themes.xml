@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Theme kuu ya App yako -->
+    <style name="Theme.Scosiah" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Rangi za msingi za Scosiah -->
+        <item name="colorPrimary">#A87342</item>
+        <item name="colorPrimaryVariant">#8B5E2E</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#FFC107</item>
+        <item name="colorOnSecondary">#000000</item>
+
+        <!-- Font na general layout -->
+        <item name="android:statusBarColor">#A87342</item>
+        <item name="android:navigationBarColor">#A87342</item>
+        <item name="android:windowBackground">#FFFFFF</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <!-- Version ya Theme isiyo na ActionBar -->
+    <style name="Theme.Scosiah.NoActionBar" parent="Theme.Scosiah">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+</resources>

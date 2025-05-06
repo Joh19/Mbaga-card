@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="#FFFFFF">
+
+    <!-- App Bar / Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#A87342"
+        android:paddingTop="20dp"
+        android:paddingBottom="12dp"
+        android:elevation="4dp"
+        app:title="Search Card"
+        app:titleTextColor="@android:color/white" />
+
+    <!-- Main Content -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <EditText
+            android:id="@+id/inputNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Card Number"
+            android:background="@drawable/rounded_input"
+            android:padding="12dp"
+            android:textColor="#000"
+            android:textColorHint="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnSubmitSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#A87342"
+            android:textColor="#fff" />
+    </LinearLayout>
+</LinearLayout>
